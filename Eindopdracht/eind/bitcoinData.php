@@ -145,17 +145,3 @@ function getBitcoinData()
     return $bitcoinInstance;
 }
 
-/************************* De functies hierboven heb je nodig en hoef je niet aan te passen ************************/
-/*******************************************************************************************************************/
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
