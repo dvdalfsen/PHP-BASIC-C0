@@ -144,4 +144,3 @@ function getBitcoinData()
 
     return $bitcoinInstance;
 }
-
