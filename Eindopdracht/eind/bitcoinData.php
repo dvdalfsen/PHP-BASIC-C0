@@ -18,7 +18,7 @@
 /* 
  * Opdracht 2: Zet hier de $buttons array neer 
  */
-$buttons = array(1,2,7.5);
+$buttons = array (1,4,8.9); 
 
 
 /******************************************* OPDRACHT 2 doe je hierboven *******************************************/
@@ -42,12 +42,11 @@ function calculateBitcoinAmount()
     }
 
     //SCHRIJF JE CODE.
-    return $euro / getbitcoinprice();
+    return $euro / getBitcoinPrice(); 
+
+
 
 }
-
-
-
 /******************************************* OPDRACHT 3 doe je hierboven *******************************************/
 /*******************************************************************************************************************/
 
@@ -82,12 +81,9 @@ if (isset($_GET['euro'])) {
      * Schrijf hieronder de code om de gekochte bitcoin aan de array $transactions toe te voegen.
      * Je voegt een bitcoinprijs toe, de prijs in euro's en het aantal gekochte bitcoins.
      */
-
-
 }
-  
-    
-array_push($transactions, [getBitcoinPrice() ,$euro, calculateBitcoinAmount()]);
+    array_push($transactions, [getBitcoinPrice() ,$euro, calculatebitcoinamount()]);
+
 
 /******************************************* OPDRACHT 4 doe je hierboven *******************************************/
 /*******************************************************************************************************************/
@@ -102,7 +98,7 @@ array_push($transactions, [getBitcoinPrice() ,$euro, calculateBitcoinAmount()]);
 function getBitcoinPrice()
 {
 
-    $bitcoinData = getBitcoinData();
+    $bitcoinData = getBitcoinData(); 
 
     $price = str_replace('#', ',', str_replace(',', '', $bitcoinData->bpi->EUR->rate));
 
@@ -151,3 +147,15 @@ function getBitcoinData()
 
 /************************* De functies hierboven heb je nodig en hoef je niet aan te passen ************************/
 /*******************************************************************************************************************/
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
