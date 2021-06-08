@@ -82,7 +82,7 @@ if (isset($_GET['euro'])) {
      * Je voegt een bitcoinprijs toe, de prijs in euro's en het aantal gekochte bitcoins.
      */
 }
-    array_push($transactions, [getBitcoinPrice() ,$euro, calculatebitcoinamount() ]);
+    array_push($transactions, [getBitcoinPrice() ,$euro, calculatebitcoinamount()]);
 
 
 /******************************************* OPDRACHT 4 doe je hierboven *******************************************/
