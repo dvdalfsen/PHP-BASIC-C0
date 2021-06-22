@@ -14,7 +14,7 @@
     $myCatNames[1] =  'mickey';
     $myCatNames[2] =  'lotje';
 
-```
+
 
 Je kunt een waarde in een array vervangen ofwel wijzigen simpelweg door een nieuwe waarde toe te kennen
 
